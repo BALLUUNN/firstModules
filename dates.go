@@ -1,7 +1,7 @@
 package utils
 
 const DayOfWeek int = 7
-
+//This function is counting number of day
 func CountOfDay(week int) int {
 	return week * DayOfWeek
 }
