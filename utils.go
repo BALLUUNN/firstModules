@@ -23,3 +23,7 @@ func GetFloat() (float64, error) {
 	}
 	return grate, nil
 }
+// Add складывает два целых числа и возвращает результат.
+func Add(a int, b int) int {
+	return a + b
+}
